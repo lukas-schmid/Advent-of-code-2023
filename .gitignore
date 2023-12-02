@@ -9,3 +9,6 @@
 # Ignore compiled code directories
 bin/
 build/
+
+# local temp dir
+template/
