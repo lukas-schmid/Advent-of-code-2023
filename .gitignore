@@ -1,0 +1,11 @@
+# Ignore compiled files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore compiled code directories
+bin/
+build/
