@@ -45,7 +45,6 @@ void processCard(std::map<int, std::vector<std::string>> &cardMap, int currentIn
     {
         for (int j = nextIndex; j < nextIndex + matches && j < cardMap.size(); j++)
         {
-            auto nextCard = cardMap.find(j);
             cardMap[j].push_back("copy");
         }
     }
