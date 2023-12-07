@@ -29,7 +29,7 @@
     Result (Part2): 10378710
 */
 
-#include "part1.h"
+#include "part2.h"
 #include "extractNumbers.h"
 #include <iostream>
 #include <fstream>
