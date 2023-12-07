@@ -24,27 +24,15 @@
 
     Take a seat in the large pile of colorful cards. How many points are they worth in total?
 
-    Result (Part1): xxx
+    Result (Part1): 19855
 */
 
 #include "part1.h"
+#include "extractNumbers.h"
 #include <iostream>
 #include <fstream>
 #include <regex>
 #include <numeric>
-
-void extractNumbersByRange(const std::string &line, size_t startIndex, size_t endIndex, std::vector<int> &numbers)
-{
-    std::regex pattern("(\\d+)");
-    std::sregex_iterator iter(line.begin() + startIndex, line.begin() + endIndex, pattern);
-    std::sregex_iterator end;
-
-    while (iter != end)
-    {
-        numbers.push_back(std::stoi(iter->str()));
-        ++iter;
-    }
-}
 
 void resultPart1()
 {
